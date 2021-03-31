@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>TestNG:  End to End Test on chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>End to End Test on chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 31 06:58:13 EET 2021</td>
+</tr>
+<tr><td>Total time:</td><td>132 seconds (132686 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.CheckTopsTest.checkTops()'><b>checkTops</b><br>Test class: testCases.CheckTopsTest<br>Parameters: public void testCases.CheckTopsTest.checkTops(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>9</td>
+<td>testCases.CheckTopsTest@67a20f67</td></tr>
+<tr>
+<td title='testCases.HomePageTest.confirmHoMePage()'><b>confirmHoMePage</b><br>Test class: testCases.HomePageTest<br>Parameters: public void testCases.HomePageTest.confirmHoMePage(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>7</td>
+<td>testCases.HomePageTest@10e41621</td></tr>
+<tr>
+<td title='testCases.mainPageTest.confirmMainPage()'><b>confirmMainPage</b><br>Test class: testCases.mainPageTest<br>Parameters: chrome, public void testCases.mainPageTest.confirmMainPage(java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>12</td>
+<td>testCases.mainPageTest@353d0772</td></tr>
+<tr>
+<td title='testCases.LoginPageTest.login()'><b>login</b><br>Test class: testCases.LoginPageTest<br>Parameters: public void testCases.LoginPageTest.login(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>5</td>
+<td>testCases.LoginPageTest@2667f029</td></tr>
+<tr>
+<td title='testCases.LoginPageTest.loginWithWrongData()'><b>loginWithWrongData</b><br>Test class: testCases.LoginPageTest<br>Parameters: 1235@hfif.com, 2158m, public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>3</td>
+<td>testCases.LoginPageTest@2667f029</td></tr>
+<tr>
+<td title='testCases.LoginPageTest.loginWithWrongData()'><b>loginWithWrongData</b><br>Test class: testCases.LoginPageTest<br>Parameters: nnjrjos1u@tmail.ws, Elsayed, public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>testCases.LoginPageTest@2667f029</td></tr>
+<tr>
+<td title='testCases.LoginPageTest.loginWithWrongData()'><b>loginWithWrongData</b><br>Test class: testCases.LoginPageTest<br>Parameters: nnjrjos1u@tmail.wsd, 12345.0, public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>4</td>
+<td>testCases.LoginPageTest@2667f029</td></tr>
+</table><p>
+</body>
+</html>

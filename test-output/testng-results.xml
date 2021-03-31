@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-31T20:13:24 EET" name="Free CRM Application Test" finished-at="2021-03-31T20:15:34 EET" duration-ms="129512">
+    <groups>
+    </groups>
+    <test started-at="2021-03-31T20:13:24 EET" name="End to End Test on chrome" finished-at="2021-03-31T20:15:34 EET" duration-ms="129512">
+      <class name="testCases.CheckTopsTest">
+        <test-method is-config="true" signature="checkTopsPrecondtions(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.CheckTopsTest@255b53dc]" started-at="2021-03-31T20:15:13 EET" name="checkTopsPrecondtions" finished-at="2021-03-31T20:15:25 EET" duration-ms="12124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.CheckTopsTest.checkTops(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTopsPrecondtions -->
+        <test-method signature="checkTops(java.lang.reflect.Method)[pri:5, instance:testCases.CheckTopsTest@255b53dc]" started-at="2021-03-31T20:15:25 EET" name="checkTops" finished-at="2021-03-31T20:15:33 EET" duration-ms="8043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.CheckTopsTest.checkTops(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTops -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.CheckTopsTest@255b53dc]" started-at="2021-03-31T20:15:33 EET" name="tearDown" finished-at="2021-03-31T20:15:34 EET" duration-ms="1081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTops status=SUCCESS method=CheckTopsTest.checkTops(java.lang.reflect.Method)[pri:5, instance:testCases.CheckTopsTest@255b53dc] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.CheckTopsTest.checkTops(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CheckTopsTest -->
+      <class name="testCases.LoginPageTest">
+        <test-method is-config="true" signature="loginPrecondtions(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:13:39 EET" name="loginPrecondtions" finished-at="2021-03-31T20:13:51 EET" duration-ms="12412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.login(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPrecondtions -->
+        <test-method signature="login(java.lang.reflect.Method)[pri:2, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:13:51 EET" name="login" finished-at="2021-03-31T20:13:58 EET" duration-ms="7205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.login(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:13:58 EET" name="tearDown" finished-at="2021-03-31T20:13:59 EET" duration-ms="537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginPageTest.login(java.lang.reflect.Method)[pri:2, instance:testCases.LoginPageTest@226a82c4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.login(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginPrecondtions(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:14:00 EET" name="loginPrecondtions" finished-at="2021-03-31T20:14:13 EET" duration-ms="12187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPrecondtions -->
+        <test-method signature="loginWithWrongData(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:3, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:14:13 EET" name="loginWithWrongData" data-provider="data" finished-at="2021-03-31T20:14:17 EET" duration-ms="4460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1235@hfif.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2158m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:14:17 EET" name="tearDown" finished-at="2021-03-31T20:14:17 EET" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithWrongData status=SUCCESS method=LoginPageTest.loginWithWrongData(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:3, instance:testCases.LoginPageTest@226a82c4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginPrecondtions(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:14:17 EET" name="loginPrecondtions" finished-at="2021-03-31T20:14:30 EET" duration-ms="12603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPrecondtions -->
+        <test-method signature="loginWithWrongData(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:3, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:14:30 EET" name="loginWithWrongData" data-provider="data" finished-at="2021-03-31T20:14:36 EET" duration-ms="5519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nnjrjos1u@tmail.ws]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Elsayed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:14:36 EET" name="tearDown" finished-at="2021-03-31T20:14:36 EET" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithWrongData status=SUCCESS method=LoginPageTest.loginWithWrongData(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:3, instance:testCases.LoginPageTest@226a82c4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginPrecondtions(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:14:36 EET" name="loginPrecondtions" finished-at="2021-03-31T20:14:48 EET" duration-ms="12192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPrecondtions -->
+        <test-method signature="loginWithWrongData(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:3, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:14:48 EET" name="loginWithWrongData" data-provider="data" finished-at="2021-03-31T20:14:53 EET" duration-ms="5020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nnjrjos1u@tmail.wsd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.LoginPageTest@226a82c4]" started-at="2021-03-31T20:14:53 EET" name="tearDown" finished-at="2021-03-31T20:14:54 EET" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithWrongData status=SUCCESS method=LoginPageTest.loginWithWrongData(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:3, instance:testCases.LoginPageTest@226a82c4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.LoginPageTest.loginWithWrongData(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginPageTest -->
+      <class name="testCases.Config">
+        <test-method is-config="true" signature="Start()[pri:0, instance:testCases.Config@35fc6dc4]" started-at="2021-03-31T20:13:24 EET" name="Start" finished-at="2021-03-31T20:13:24 EET" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method is-config="true" signature="end()[pri:0, instance:testCases.Config@35fc6dc4]" started-at="2021-03-31T20:15:34 EET" name="end" finished-at="2021-03-31T20:15:34 EET" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- testCases.Config -->
+      <class name="testCases.mainPageTest">
+        <test-method is-config="true" signature="mainPagePrecondtions(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.mainPageTest@7fe8ea47]" started-at="2021-03-31T20:13:24 EET" name="mainPagePrecondtions" finished-at="2021-03-31T20:13:37 EET" duration-ms="12936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.mainPageTest.confirmMainPage(java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainPagePrecondtions -->
+        <test-method signature="confirmMainPage(java.lang.String, java.lang.reflect.Method)[pri:1, instance:testCases.mainPageTest@7fe8ea47]" started-at="2021-03-31T20:13:37 EET" name="confirmMainPage" finished-at="2021-03-31T20:13:38 EET" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.mainPageTest.confirmMainPage(java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmMainPage -->
+        <test-method is-config="true" signature="tesDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.mainPageTest@7fe8ea47]" started-at="2021-03-31T20:13:38 EET" name="tesDown" finished-at="2021-03-31T20:13:39 EET" duration-ms="1233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confirmMainPage status=SUCCESS method=mainPageTest.confirmMainPage(java.lang.String, java.lang.reflect.Method)[pri:1, instance:testCases.mainPageTest@7fe8ea47] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.mainPageTest.confirmMainPage(java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesDown -->
+      </class> <!-- testCases.mainPageTest -->
+      <class name="testCases.HomePageTest">
+        <test-method is-config="true" signature="HomePagePrecondtions(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.HomePageTest@731f8236]" started-at="2021-03-31T20:14:54 EET" name="HomePagePrecondtions" finished-at="2021-03-31T20:15:06 EET" duration-ms="12753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.HomePageTest.confirmHoMePage(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagePrecondtions -->
+        <test-method signature="confirmHoMePage(java.lang.reflect.Method)[pri:4, instance:testCases.HomePageTest@731f8236]" started-at="2021-03-31T20:15:06 EET" name="confirmHoMePage" finished-at="2021-03-31T20:15:12 EET" duration-ms="5398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.HomePageTest.confirmHoMePage(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmHoMePage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testCases.HomePageTest@731f8236]" started-at="2021-03-31T20:15:12 EET" name="tearDown" finished-at="2021-03-31T20:15:13 EET" duration-ms="966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confirmHoMePage status=SUCCESS method=HomePageTest.confirmHoMePage(java.lang.reflect.Method)[pri:4, instance:testCases.HomePageTest@731f8236] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.HomePageTest.confirmHoMePage(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HomePageTest -->
+    </test> <!-- End to End Test on chrome -->
+  </suite> <!-- Free CRM Application Test -->
+</testng-results>
